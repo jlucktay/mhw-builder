@@ -9,7 +9,7 @@ phases:
         commands:
             - ng build --prod
     post_build:
-         commands:
+        commands:
             - aws s3 cp dist s3://$S3_BUCKET --recursive
 artifacts:
     files:

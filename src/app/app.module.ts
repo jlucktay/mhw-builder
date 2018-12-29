@@ -75,7 +75,7 @@ import { AmmoCapacitiesComponent } from './components/ammo-capacities/ammo-capac
 		CalculationService,
 		BuildService,
 		AppDataProvider,
-		{ provide: APP_INITIALIZER, useFactory: appDataProviderFactory, deps: [AppDataProvider], multi: true}
+		{ provide: APP_INITIALIZER, useFactory: appDataProviderFactory, deps: [AppDataProvider], multi: true }
 	],
 	bootstrap: [AppComponent]
 })
