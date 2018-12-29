@@ -1,0 +1,88 @@
+{
+	"assets": {
+		"icon": "https://assets.mhw-db.com/weapons/bow/icons/25f8ea6d74f3f6952658c0a2be62908b.bdcffbb929dbd5250076e71bfebb4d30865c6428.png",
+		"image": "https://assets.mhw-db.com/weapons/bow/b586fc2325e3c3d9c0fb523061120d8161802035.e9d38cda035654c9b89efe35c9c95658.png"
+	},
+	"attack": {
+		"display": 276,
+		"raw": 230
+	},
+	"attributes": {
+		"coatings": [
+			"close range",
+			"power",
+			"poison"
+		],
+		"damageType": "projectile",
+		"elderseal": "high"
+	},
+	"crafting": {
+		"branches": [],
+		"craftable": false,
+		"craftingMaterials": [],
+		"previous": 1176,
+		"upgradeMaterials": [
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 99,
+					"description": "Contains an unknown compound. The object of much scholarly research.",
+					"id": 174,
+					"name": "Elder Dragon Blood",
+					"rarity": 7,
+					"sellPrice": 0
+				},
+				"quantity": 5
+			},
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 0,
+					"description": "Rare Deviljho material. Obtained by breaking its head. Unusual, used in select gear.",
+					"id": 520,
+					"name": "Deviljho Scalp",
+					"rarity": 6,
+					"sellPrice": 0
+				},
+				"quantity": 2
+			},
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 0,
+					"description": "Rare Deviljho material. Obtained by breaking its head. Stout, used in many weapons.",
+					"id": 518,
+					"name": "Deviljho Tallfang",
+					"rarity": 6,
+					"sellPrice": 0
+				},
+				"quantity": 5
+			},
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 0,
+					"description": "A rare gem said to have formed within Deviljho tissue. Used to dramatically improve gear.",
+					"id": 523,
+					"name": "Deviljho Gem",
+					"rarity": 7,
+					"sellPrice": 0
+				},
+				"quantity": 1
+			}
+		]
+	},
+	"elements": [
+		{
+			"damage": 210,
+			"hidden": false,
+			"type": "dragon"
+		}
+	],
+	"id": 1177,
+	"name": "Villainous Brace",
+	"rarity": 7,
+	"slots": [],
+	"slug": "villainous-brace",
+	"type": "bow"
+}

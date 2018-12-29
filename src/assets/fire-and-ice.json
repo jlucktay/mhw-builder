@@ -1,0 +1,145 @@
+{
+	"assets": {
+		"icon": "https://assets.mhw-db.com/weapons/dual-blades/icons/e18e488012c150ee1015914e7737e7d6.762b0022bb518a4a38f8e8519db2c52d984d72e3.png",
+		"image": "https://assets.mhw-db.com/weapons/dual-blades/2fa5068fe8f210eef5e908078498e8974827857f.da0f01596511dae17f3e45995e475173.png"
+	},
+	"attack": {
+		"display": 252,
+		"raw": 180
+	},
+	"attributes": {
+		"affinity": 10,
+		"damageType": "sever"
+	},
+	"crafting": {
+		"branches": [],
+		"craftable": false,
+		"craftingMaterials": [],
+		"previous": 342,
+		"upgradeMaterials": [
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 0,
+					"description": "A rare Xeno'jiiva claw, said to cleave soul from flesh.",
+					"id": 441,
+					"name": "Xeno'jiiva Claw",
+					"rarity": 7,
+					"sellPrice": 0
+				},
+				"quantity": 2
+			},
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 0,
+					"description": "Rare Teostra material. Obtained by breaking its head. Stout, used in many weapons.",
+					"id": 423,
+					"name": "Teostra Horn+",
+					"rarity": 7,
+					"sellPrice": 0
+				},
+				"quantity": 3
+			},
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 0,
+					"description": "Rare Kushala Daora material. Obtained by breaking its head. Stout, used in many weapons.",
+					"id": 432,
+					"name": "Daora Horn+",
+					"rarity": 7,
+					"sellPrice": 0
+				},
+				"quantity": 3
+			},
+			{
+				"item": {
+					"buyPrice": 0,
+					"carryLimit": 99,
+					"description": "High quality Lightcrystal. Highly coveted for its rarity, it's used for only the finest of metalworking.",
+					"id": 125,
+					"name": "Novacrystal",
+					"rarity": 6,
+					"sellPrice": 0
+				},
+				"quantity": 2
+			}
+		]
+	},
+	"durability": [
+		{
+			"blue": 60,
+			"green": 120,
+			"orange": 50,
+			"red": 60,
+			"white": 0,
+			"yellow": 60
+		},
+		{
+			"blue": 70,
+			"green": 120,
+			"orange": 50,
+			"red": 60,
+			"white": 0,
+			"yellow": 60
+		},
+		{
+			"blue": 70,
+			"green": 120,
+			"orange": 50,
+			"red": 60,
+			"white": 10,
+			"yellow": 60
+		},
+		{
+			"blue": 70,
+			"green": 120,
+			"orange": 50,
+			"red": 60,
+			"white": 20,
+			"yellow": 60
+		},
+		{
+			"blue": 70,
+			"green": 120,
+			"orange": 50,
+			"red": 60,
+			"white": 30,
+			"yellow": 60
+		},
+		{
+			"blue": 70,
+			"green": 120,
+			"orange": 50,
+			"red": 60,
+			"white": 40,
+			"yellow": 60
+		}
+	],
+	"elements": [
+		{
+			"damage": 240,
+			"hidden": false,
+			"type": "ice"
+		}
+	],
+	"id": 343,
+	"name": "Fire and Ice",
+	"rarity": 8,
+	"sharpness": {
+		"blue": 15,
+		"green": 30,
+		"orange": 12,
+		"red": 15,
+		"white": 0,
+		"yellow": 15
+	},
+	"slots": [
+		{
+			"rank": 2
+		}
+	],
+	"slug": "fire-and-ice",
+	"type": "dual-blades"
+}
