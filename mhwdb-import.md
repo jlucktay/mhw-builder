@@ -1,11 +1,14 @@
 # Importing weapon stats from MHWDB
 
-1. Get all weapon IDs from MHWDB
-    - ```curl --silent --get "https://mhw-db.com/weapons" --data 'p={"id":true}' | jq 'sort_by(.id)' >> mhw-db.weapons.id.$(gdn).json```
-    1. Put the IDs into a stack/queue
-1. Get weapon from MHWDB via HTTP call
-1. Parse/unmarshal useful fields
-1. Emit corresponding TSV line
+## Aim
+
+Solve [this issue](https://github.com/TurkeyTickle/mhw-builder/issues/17) with a tool that does the following:
+
+1. Get all weapon IDs from MHWDB, e.g. ```curl --silent --get "https://mhw-db.com/weapons" --data 'p={"id":true}' | jq 'sort_by(.id)' >> mhw-db.weapons.id.$(gdn).json```
+1. Put the IDs into a stack/queue
+1. Get each weapon's full info from MHWDB via HTTP call
+1. Parse/unmarshal the useful fields per notes made below
+1. Emit corresponding TSV line to suit mhw-builder
 
 ``` text
     type            WeaponType                  The weapon's type
@@ -49,3 +52,7 @@ skills
 sharpnessDataNeeded
 tags
 ```
+
+## Further reading
+
+[Here is some more info on projecting](https://docs.mhw-db.com/?shell#projecting-results).
