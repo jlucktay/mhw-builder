@@ -56,3 +56,9 @@ tags
 ## Further reading
 
 [Here is some more info on projecting](https://docs.mhw-db.com/?shell#projecting-results).
+
+This command will get only bow IDs:
+
+``` shell
+curl --silent --get "https://mhw-db.com/weapons" --data 'q={"type":"bow"}' --data 'p={"id":true,"name":true}' | jq 'sort_by(.id)' >> mhw-db.weapons.bow.$(gdn).json
+```
